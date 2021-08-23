@@ -32,7 +32,7 @@ function postSubCategoriy(req,res){
 function postProducts(req,res){
 	let products = readFile('products')
 	products = products ? JSON.parse(products) : []
-	let { subCategoryId:sub_category_id,productName:products_name,model,price,color }  = req.body
+	let { subCategoryId:sub_category_id,productName:product_name,model,price,color }  = req.body
 	let newProduct = {
 		sub_category_id,
 		product_name,
