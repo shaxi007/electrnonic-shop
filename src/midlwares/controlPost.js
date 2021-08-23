@@ -1,9 +1,9 @@
 function postCat(req,res,next) {
 	try {
-		if(!req.body.categoryName) throw 'you did not enter username'
-		if( typeof req.body.categoryName != 'string') throw 'Enter a string in the productname'
-		if(req.body.categoryName.length<5) throw 'Use more than 5 characters in the productname'
-		if(req.body.categoryName.length>50) throw 'Use less than 50 characters in the productname'
+		if(!req.body.categoryName) throw 'you did not enter categoryName'
+		if( typeof req.body.categoryName != 'string') throw 'Enter a string in the categoryName'
+		if(req.body.categoryName.length<5) throw 'Use more than 5 characters in the categoryName'
+		if(req.body.categoryName.length>50) throw 'Use less than 50 characters in the categoryName'
 		next()
 	} catch(e) {
 		res.send(e);
