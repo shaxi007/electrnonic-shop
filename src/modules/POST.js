@@ -35,7 +35,7 @@ function postProducts(req,res){
 	let { subCategoryId:sub_category_id,productName:products_name,model,price,color }  = req.body
 	let newProduct = {
 		sub_category_id,
-		products_name,
+		product_name,
 		model,
 		price,
 		color

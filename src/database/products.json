@@ -25,7 +25,7 @@
     },
     {
         "sub_category_id": 1,
-        "products_name": "sh",
+        "product_name": "sh",
         "model": "df",
         "price": 200,
         "color": "red",
@@ -33,7 +33,7 @@
     },
     {
         "sub_category_id": 1,
-        "products_name": "sh",
+        "product_name": "sh",
         "model": "df",
         "price": 200,
         "color": "red",
