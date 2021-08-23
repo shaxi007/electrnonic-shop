@@ -1,6 +1,5 @@
 import { readFile, writeFile } from '../lib/readAndWrite.js'
 
-
 function getCategories(req,res) {
 	let subCategories = JSON.parse(readFile ('subCategories'))
 	let categories = JSON.parse(readFile ('category'))

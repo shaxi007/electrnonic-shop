@@ -33,5 +33,10 @@
         "sub_category_id": 7,
         "category_id": 2,
         "sub_category_name": "trousers"
+    },
+    {
+        "category_id": 3,
+        "sub_category_name": "sh",
+        "sub_category_id": 8
     }
 ]

@@ -9,7 +9,7 @@
     },
     {
         "product_id": 2,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "model": "samsung",
         "product_name": "Galaxy 7",
         "color": "silver",
@@ -22,5 +22,21 @@
         "product_name": "XDL 2340",
         "color": "black",
         "price": "500"
+    },
+    {
+        "sub_category_id": 1,
+        "products_name": "sh",
+        "model": "df",
+        "price": 200,
+        "color": "red",
+        "product_id": 5
+    },
+    {
+        "sub_category_id": 1,
+        "products_name": "sh",
+        "model": "df",
+        "price": 200,
+        "color": "red",
+        "product_id": 6
     }
 ]
